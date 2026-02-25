@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Project Components</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0a4cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 🔥 NAVBAR CENTERING */
+        nav {
+            display: flex;
+            justify-content: center;   /* center horizontally */
+            align-items: center;
+            gap: 30px;
+            background-color: #ffffff;
+            padding: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #0a4cff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .component {
+            background-color: white;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .component h2 {
+            color: #0a4cff;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My First Year Project</h1>
+        <p>Project Components Information</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="info.html">Info</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <div class="component">
+            <h2>ESP32</h2>
+            <p>
+                ESP32 is a microcontroller used as the main controller of our project.
+                It has built-in WiFi and Bluetooth which helps in IoT applications.
+            </p>
+        </div>
+
+        <div class="component">
+            <h2>MQ Smoke Sensor</h2>
+            <p>
+                The MQ sensor is used to detect smoke and harmful gases.
+                It sends data to the ESP32 for processing and alerts.
+            </p>
+        </div>
+
+        <div class="component">
+            <h2>MPU6050 Sensor</h2>
+            <p>
+                MPU6050 is a motion sensor that measures acceleration and rotation.
+                It is used to detect movement and orientation.
+            </p>
+        </div>
+
+        <div class="component">
+            <h2>Power Supply</h2>
+            <p>
+                The power supply provides required voltage to all components.
+                It ensures stable operation of the system.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My First Year Project</p>
+    </footer>
+</body>
+</html>

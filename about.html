@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- Connect External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* NAVBAR CENTERED */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            background-color: #0a4cff;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Leader Image */
+        .leader-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Anas Image */
+        .anas-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Jatin Image */
+        .jatin-img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        /* Member Images */
+        .member3-img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        .member4-img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .member5-img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        main {
+            text-align: center;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 220px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0a4cff;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<!-- FIXED BODY CLASS -->
+<body class="about-page">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Info.html">Info</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <img src="image/Prathamesh.jpeg" class="leader-img">
+            <p style="text-align: center;">
+                Hello! My name is Prathamesh Joshi, leader of Team Aeroserve and here's my team 
+            </p>
+        </section>
+
+        <section>
+            <h2>My Team</h2>
+
+            <div class="cards team">
+                <div class="card">
+                    <img src="image/Anas.jpeg" class="anas-img">
+                    <h3>Anas Khan</h3>
+                    <p>Electronics</p>
+                </div>
+
+                <div class="card">
+                    <img src="image/jatin.jpeg" class="jatin-img">
+                    <h3>Jatin Lalchandani</h3>
+                    <p>PCB Design, Mechanical Design & Research</p>
+                </div>
+
+                <div class="card">
+                    <img src="image/Vaishnavi.jpeg" class="member3-img">
+                    <h3>Vaishnavi chaudhari </h3>
+                    <p>Designer and researcher
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="image/Parul.jpeg" class="member4-img">
+                    <h3>Parul rathi</h3>
+                    <p>Softeware</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/person3.jpg" class="member5-img">
+                    <h3>Siddharaj diwate</h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Info Website</p>
+    </footer>
+
+</body>
+</html>

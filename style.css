@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    min-height: 60vh;
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #c33764;
+}
+
+/* Sections */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+}
+
+/* Info layout (no boxes) */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1d2671;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f5f5f5;
+    color: #666;
+}
+img {
+    width: 12 0px;
+    height: auto;
+}
+/* General Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Creative Gradient Background */
+.contact-page {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+}
+
+/* Centering Container */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Glass Effect Box */
+.contact-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 300px;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #00c6ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}
+
+.sub-text {
+    font-size: 14px;
+    opacity: 0.8;
+}
+body.about-page {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    min-height: 100vh;
+}
+.center-text {
+  text-align: center;
+}
